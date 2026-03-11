@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Manguso Lab</title>
+  <title>Data Browser | Manguso Lab</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -15,7 +15,7 @@
       </a>
       <ul class="nav-links">
         <li><a href="research.html">Research</a></li>
-        <li><a href="browser.html">Data Browser</a></li>
+        <li><a href="browser.html" class="active">Data Browser</a></li>
         <li class="dropdown">
           <a href="people.html">Team</a>
           <ul class="dropdown-menu">
@@ -32,20 +32,27 @@
 
   <main>
 
-    <section class="hero">
-      <img class="hero-img" src="images/hero.jpg" alt="">
-      <div class="hero-overlay"></div>
-      <div class="hero-content">
-        <p>Our laboratory, based at the Broad Institute of MIT and Harvard and the Massachusetts General Hospital Center for Cancer Research, is working to improve the treatment of cancer using immunotherapy. We use a range of approaches including mouse models, cellular immunology, functional genomics, and single cell profiling to understand how cancers evade the immune system and to identify new targets to enhance immune responses to tumors.</p>
-      </div>
-    </section>
-
-    <section class="intro-section">
+    <div class="page-header">
       <div class="container">
-        <p>We tweet! Click <a href="https://twitter.com/mangusolab" target="_blank" rel="noopener"><strong>here</strong></a> to see what we've been up to.</p>
+        <h1>Data Browser</h1>
       </div>
-    </section>
+    </div>
 
+    <div class="container">
+      <section class="section">
+
+        <p>The TIDE has completed a variety of large-scale in vivo screens to discover novel mechanisms of resistance and enhanced sensitivity to cancer immunotherapy.</p>
+
+        <p>Screens have been performed in vitro, in immunodeficient mice (NSG), immunocompetent wild-type mice (WT), and wild-type mice treated with immune checkpoint blockade therapy (ICB).</p>
+
+        <p>We have created an interactive browser to explore the results of these screens at <a href="https://www.tumorimmunity.org" target="_blank" rel="noopener">tumorimmunity.org</a>.</p>
+
+        <div class="browser-schematic">
+          <img src="images/browser-schematic.png" alt="Screen experimental design schematic">
+        </div>
+
+      </section>
+    </div>
   </main>
 
   <footer>

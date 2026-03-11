@@ -8,7 +8,6 @@
 </head>
 <body>
 
-  <!-- NAVIGATION -->
   <header>
     <nav>
       <a class="nav-logo" href="index.html">
@@ -16,7 +15,7 @@
       </a>
       <ul class="nav-links">
         <li><a href="research.html" class="active">Research</a></li>
-        <li><a href="https://singlecell.broadinstitute.org/single_cell" target="_blank" rel="noopener">Data Browser</a></li>
+        <li><a href="browser.html">Data Browser</a></li>
         <li class="dropdown">
           <a href="people.html">Team</a>
           <ul class="dropdown-menu">
@@ -25,6 +24,7 @@
           </ul>
         </li>
         <li><a href="publications.html">Publications</a></li>
+        <li><a href="fun.html">Fun</a></li>
         <li><a href="contact.html">Join</a></li>
       </ul>
     </nav>
@@ -32,7 +32,6 @@
 
   <main>
 
-    <!-- PAGE HEADER -->
     <div class="page-header">
       <div class="container">
         <h1>Research</h1>
@@ -41,76 +40,47 @@
 
     <div class="container">
 
-      <!-- OVERVIEW -->
-      <section class="section" style="padding-bottom:2rem;">
-        <p style="font-size:1.05rem; color:#444; line-height:1.8; max-width:780px;">
-          Our laboratory employs mouse models, cellular immunology, functional genomics, and single-cell profiling to understand how cancers evade the immune system and to identify new targets to enhance immune responses to tumors.
-        </p>
+      <section class="section" style="padding-bottom:1rem;">
+        <p>Our laboratory, based at the Broad Institute of MIT and Harvard and the Massachusetts General Hospital Cancer Center, is working to improve the treatment of cancer using immunotherapy.</p>
+        <p>We use a range of approaches including mouse models, cellular immunology, functional genomics, and single cell profiling to understand how cancers evade the immune system and to identify new targets to enhance immune responses to tumors.</p>
+        <p>Some of the ongoing projects in our lab include:</p>
       </section>
 
-      <!-- RESEARCH ITEM 1: CRISPR Screens -->
       <div class="research-item">
         <div class="research-img">
-          <img src="images/research-crispr.jpg" alt="In vivo CRISPR-based Genetic Screens">
+          <img src="images/research-crispr.jpg" alt="In vivo CRISPR-based genetic screens for target discovery">
         </div>
         <div class="research-text">
-          <h2>In Vivo CRISPR-Based Genetic Screens</h2>
-          <p>
-            We employ large-scale animal-based genetic screening to discover mechanisms controlling tumor responses to immunotherapy. Using pooled in vivo CRISPR screens in mouse tumor models, we can systematically identify genes that regulate sensitivity and resistance to immune checkpoint blockade.
-          </p>
-          <p>
-            A key finding from our work: deletion of <em>PTPN2</em>, a phosphatase that negatively regulates interferon gamma sensing, markedly enhances tumor sensitivity to PD-1 checkpoint blockade. This discovery opened a new avenue for combination immunotherapy strategies.
-          </p>
-          <p>
-            We continue to apply and refine this platform to map the landscape of immune evasion pathways and identify novel therapeutic targets across multiple cancer types.
-          </p>
+          <h2>In vivo CRISPR-based genetic screens for target discovery</h2>
+          <p>We use large-scale genetic screening in animals to discover previously unknown or poorly understood mechanisms regulating tumor responses to immunotherapy. Using these tools, we have already identified that deletion of PTPN2, a phosphatase that negatively regulates interferon gamma sensing, markedly enhances tumor sensitivity to PD-1 checkpoint blockade.</p>
         </div>
       </div>
 
-      <!-- RESEARCH ITEM 2: Resistance -->
       <div class="research-item reverse">
         <div class="research-img">
-          <img src="images/research-resistance.jpg" alt="Overcoming Acquired Resistance to Immunotherapy">
+          <img src="images/research-resistance.jpg" alt="Identifying pathways that can overcome acquired resistance to immunotherapy">
         </div>
         <div class="research-text">
-          <h2>Overcoming Acquired Resistance to Immunotherapy</h2>
-          <p>
-            Many patients who initially respond to immune checkpoint blockade eventually develop acquired resistance. Understanding the molecular mechanisms underlying this resistance is critical for developing strategies to restore immune sensitivity.
-          </p>
-          <p>
-            We discovered that loss of <em>ADAR1</em>, an adenosine deaminase acting on RNA, inflames the tumor microenvironment and can overcome resistance to immune checkpoint blockade. ADAR1 normally suppresses innate immune sensing of endogenous double-stranded RNA; its loss unleashes this sensing pathway, creating a more immunostimulatory tumor environment.
-          </p>
-          <p>
-            This work has broad implications for treating patients who fail to respond to or relapse on checkpoint immunotherapy.
-          </p>
+          <h2>Identifying pathways that can overcome acquired resistance to immunotherapy</h2>
+          <p>Loss of ADAR1, an adenosine deaminase acting on RNA, inflames the tumor microenvironment and can overcome resistance to immune checkpoint blockade.</p>
         </div>
       </div>
 
-      <!-- RESEARCH ITEM 3: Antigen Presentation -->
       <div class="research-item" style="border-bottom:none;">
-        <div class="research-img" style="display:flex; align-items:center; justify-content:center; background:#f5f5f5; border-radius:4px; min-height:280px;">
-          <p style="color:#aaa; font-size:0.9rem; text-align:center; padding:2rem;">Antigen Presentation Research</p>
+        <div class="research-img" style="display:flex; align-items:center; justify-content:center; background:#f5f5f5; border-radius:4px; min-height:240px;">
+          <span style="color:#bbb; font-size:0.9rem;">Antigen Presentation</span>
         </div>
         <div class="research-text">
-          <h2>Antigen Presentation in Immunotherapy</h2>
-          <p>
-            Efficient presentation of tumor-derived peptides via major histocompatibility complexes (MHC) is essential for adaptive immune recognition of cancer cells. Tumors frequently downregulate antigen presentation machinery as a mechanism of immune evasion.
-          </p>
-          <p>
-            We investigate how cellular-derived peptide processing and MHC presentation shapes tumor–immune cell interactions. Using our in vivo CRISPR platform and biochemical approaches, we are uncovering novel regulators of this pathway and developing strategies to restore or enhance antigen presentation in tumors.
-          </p>
-          <p>
-            Recent work identified ERAP, an aminopeptidase involved in MHC-I peptide trimming, as a target whose inhibition enhances antitumor immunity by altering the repertoire of presented antigens.
-          </p>
+          <h2>Understanding antigen presentation in the context of immunotherapy</h2>
+          <p>The processing and presentation of cellular-derived peptides in major histocompatibility complexes (MHC) regulate the specific interaction between a tumor and infiltrating immune cells. We are working to understand how tumors evade the immune system via modulation of this pathway.</p>
         </div>
       </div>
 
     </div>
   </main>
 
-  <!-- FOOTER -->
   <footer>
-    <p>Copyright &copy; 2026, R.T. Manguso. All rights reserved. &nbsp;|&nbsp; Broad Institute of MIT and Harvard &nbsp;&amp;&nbsp; Massachusetts General Hospital Cancer Center</p>
+    <p>COPYRIGHT &copy; 2026, R.T. MANGUSO. ALL RIGHTS RESERVED.</p>
   </footer>
 
 </body>
